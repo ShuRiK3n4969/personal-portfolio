@@ -4,6 +4,7 @@ body {
  	margin: 0;
   	height: 100%;
   	width: 100%;
+    overflow: hidden;
 }
 
 main {
@@ -58,7 +59,7 @@ h1 {
     font-size: 50px;
 }
 .hero-text {
-    margin-left: 120px;
+    margin-left: 250px;
     margin-top: 150px;
 }
 a{
@@ -66,11 +67,47 @@ a{
 	color: #e84444;
 }
 .family-photo{  
-    width: 500px;
+    width: 430px;
     float: right;  
-    border-radius: 270px;
-    position: relative
+    border-radius: 250px;
+    position: relative;
+    padding: 20px;
 }
 p{
-    padding: 20px;
+    padding-left: 20px;
+}
+.about-sec{
+    margin-top: 75px;
+}
+.sub-section-alt{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+.project-card{
+    background-color: #1c1d25;
+    text-align: center;
+}
+.project-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 4rem;
+    justify-content: space-evenly;
+    
+}
+.project-image{
+    margin-top: 30px;
+    width: 250px;
+    border-radius: 125px;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-link{
+    text-decoration: none;
+    color: white
+}
+h1{
+    padding-left: 20px;
 }
