@@ -11,7 +11,7 @@ main {
   width: 100%;
 }
 
-.hero {
+section {
 	height: 100%;
 	width: 100%;
 	font-size: 25px;
@@ -24,17 +24,25 @@ main {
 	position: relative;
 	margin-left: 50px;
   }
-  nav {
+nav {
     display: flex;
     justify-content: space-between;
     
 }
-ul {
+.nav-list {
     display: flex;
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+.nav-list1 {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+	margin-left: 826px;
 }
 
 li {
@@ -44,7 +52,7 @@ h1 {
     font-size: 60px;
     margin: 0;
 }
-p {
+#title-name {
     margin: 0;
     font-weight: 400;
     font-size: 50px;
@@ -52,4 +60,17 @@ p {
 .hero-text {
     margin-left: 120px;
     margin-top: 150px;
+}
+a{
+	text-decoration: none;
+	color: #e84444;
+}
+.family-photo{  
+    width: 500px;
+    float: right;  
+    border-radius: 270px;
+    position: relative
+}
+p{
+    padding: 20px;
 }
