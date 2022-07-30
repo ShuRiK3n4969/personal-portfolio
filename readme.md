@@ -8,4 +8,17 @@ I will keep improving it as my skills and memory improve.
 
 ### Features
 
-- \*\*Navigation Bar.
+- **Navigation Bar**
+- **Single full page screen**
+- **Portfolio**
+- **About Me**
+
+## What I used
+
+- **HTML5** - I used HTML5 for my website and
+- **CSS3** - to style it
+
+### Acknowledgements
+
+- **Youtube** -got the basics for the design of my website off youtube.
+- **Google Fonts** - For the font I used
